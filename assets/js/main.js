@@ -15,10 +15,18 @@ $(function() {
         var scroll = $(window).scrollTop();
         if (scroll < 20) {
             $(".navbar-area").removeClass("sticky");
-            $(".navbar-area img").attr("src", "assets/images/logo.svg");
+            var objTag = document.getElementById("company");
+            if (objTag != null)
+            {
+                objTag.setAttribute('data', 'assets/images/logo.svg');
+            }
         } else {
             $(".navbar-area").addClass("sticky");
-            $(".navbar-area img").attr("src", "assets/images/logo-2.svg");
+            var objTag = document.getElementById("company");
+            if (objTag != null)
+            {
+                objTag.setAttribute('data', 'assets/images/logo-2.svg');
+            }
         }
     });
 
