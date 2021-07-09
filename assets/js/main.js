@@ -20,12 +20,17 @@ $(function() {
             {
                 objTag.setAttribute('data', 'assets/images/logo.svg');
             }
-        } else {
-            $(".navbar-area").addClass("sticky");
-            var objTag = document.getElementById("company");
+        } 
+        else
+        {
+            var objTag = document.getElementById("company");            
+            $(".navbar-area").addClass("sticky");            
             if (objTag != null)
             {
-                objTag.setAttribute('data', 'assets/images/logo-2.svg');
+                if(objTag.getAttribute('data')==='assets/images/logo-2.svg')
+                {}
+                else
+                    objTag.setAttribute('data', 'assets/images/logo-2.svg');
             }
         }
     });
