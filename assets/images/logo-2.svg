@@ -60,7 +60,7 @@
 						path.style["animation-delay"] = `${i * delay}s`;
 					}
 				}
-				 setTextAnimation(0.1,2.8,1,'linear','#0067f4',true);
+				 setTextAnimation(0.3,5,1,'linear','#0067f4',true);
 				 ]]>
 		</script>
 	</svg>
