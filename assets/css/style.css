@@ -2299,8 +2299,7 @@ p {
     @media (max-width: 767px) {
       .navbar-area .navbar .navbar-btn {
         position: absolute;
-        right: 60px;
-        top: 7px; } }
+        right: 60px;} }
     .navbar-area .navbar .navbar-btn li {
       display: inline-block;
       margin-right: 5px; }
