@@ -29,8 +29,8 @@
         $email_content .= "Email: $email\n\n";
         $email_content .= "Message:\n$message\n";
 
-        // Build the email headers.
-        $email_headers = "From: $name <$email>";
+        //Build the email headers.
+        $email_headers = "From: praveentiger1997@gmail.com";
 
         // Send the email.
         if (mail($recipient, $subject, $email_content, $email_headers)) {
